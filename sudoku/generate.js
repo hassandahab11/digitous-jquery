@@ -69,15 +69,17 @@
   
 
 function generateSudoku(){
-    var randomLine = Math.floor(Math.random()* allSudoku.length);
+    var randomLine = Math.floor(Math.random() * allSudoku.length);
     console.log(allSudoku[randomLine]);
 
-var i =0;
+var index =0;
 for(i =0; i<9; i++){
     for(j = 0; j < 9; j++){
-        console.log(sudoku[i][j]);
+      sudoku[i][j] = allSudoku[randomLine][index];
+      index++;
     }
 }
+console.log(sudoku);
 }
 
 generateSudoku();
