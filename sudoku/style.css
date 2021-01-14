@@ -1,0 +1,17 @@
+
+body{
+ background-color: cornsilk;
+ 
+}
+
+table
+{
+    border-collapse: collapse; 
+    
+}
+td
+{
+    border: 1px solid black;
+    width: 75px;
+    height: 30px;
+}
