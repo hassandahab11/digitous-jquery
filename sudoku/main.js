@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
 
+
     generateSudoku();
 
 
@@ -15,4 +16,11 @@ $(document).ready(function() {
     sudokuHtml += '</div>';
 
     $("#sudoku").html(sudokuHtml);
+})
+
+
+$(document).ready(function(){
+    $("#btn").click(function(){
+        window.location.reload(generateSudoku());
+    })
 })

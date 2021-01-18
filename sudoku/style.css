@@ -1,13 +1,36 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .case{
     height: 36px;
     width: 36px;
-    /* padding: 18px; */
     border: 1px solid blueviolet;
     text-align: center;
     padding: 0;
     margin: 0;
-    color: green;
+    color: #000;
     background: antiquewhite;
 
+}
+
+ .btn{
+    background-color: blue;
+    margin-top: 20px;
+    color: white;
+
+} 
+.btn{
+    background-color: blue;
+    margin-top: 20px;
+    color: white;
+
+} 
+.row{
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
